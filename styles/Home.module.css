@@ -40,6 +40,7 @@
   font-family: "Antonio", sans-serif;
   font-weight: 100;
   text-align: center;
+  font-size: 40px;
 }
 
 .external_links {
@@ -57,4 +58,21 @@
   color: rgba(132, 179, 245, 1);
   cursor: pointer;
   transform: scale(1.4);
+}
+
+@media screen and (max-width: 600px) {
+  .firstName {
+    font-size: 40px;
+  }
+
+  .lastName {
+    font-size: 40px;
+  }
+  .title {
+    font-size: 26px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
 }
