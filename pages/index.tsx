@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.overlay}>
           <div className={styles.name}>
-            <h1>
+            <h1 className={styles.animateTop}>
               <span className={styles.firstName}>Ashley</span>
               <span className={styles.lastName}> Teo</span>
             </h1>
@@ -23,13 +23,19 @@ export default function Home() {
                 href="https://www.linkedin.com/in/ashley-teo-64b18a135/"
                 target="_blank"
               >
-                <LinkedinFilled className={[styles.icon].join(" ")} />
+                <LinkedinFilled
+                  className={[styles.icon, styles.linkedin__icon].join(" ")}
+                />
               </a>
               <a href="https://github.com/thyAshley" target="_blank">
-                <GithubFilled className={[styles.icon].join(" ")} />
+                <GithubFilled
+                  className={[styles.icon, styles.github__icon].join(" ")}
+                />
               </a>
               <a href="mailto:thy.ashley@gmail.com'">
-                <MailOutlined className={[styles.icon].join(" ")} />
+                <MailOutlined
+                  className={[styles.icon, styles.mail__icon].join(" ")}
+                />
               </a>
             </div>
           </div>
