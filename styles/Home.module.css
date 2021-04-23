@@ -61,21 +61,23 @@
 }
 
 .icon {
-  font-size: 36px;
-  margin: 0 20px;
+  font-size: 48px;
+  margin: 10px 20px;
   transition: all 0.2s ease-in-out;
   opacity: 0;
 }
 
 .icon:hover {
   color: rgba(132, 179, 245, 1);
+  position: relative;
+  top: -3px;
   cursor: pointer;
-  transform: scale(1.4);
 }
 
 .linkedin__icon {
   animation: appear 3s ease-out 0.5s 1 forwards;
 }
+
 .github__icon {
   animation: appear 3s ease-out 1s 1 forwards;
 }
@@ -97,7 +99,7 @@
   }
 
   .icon {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
 
